@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CoolWeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:windowBackground">@drawable/bg_dark_portrait</item>
+
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorSecondary">@color/my_dark_secondary</item>
+
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Night" parent="Theme.CoolWeatherApp">
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorSecondary">@color/my_dark_secondary</item>
+    </style>
+
+    <style name="Theme.Night.Land" parent="Theme.CoolWeatherApp">
+        <item name="android:windowBackground">@drawable/bg_light_land</item>
+    </style>
+
+</resources>
