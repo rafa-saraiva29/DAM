@@ -13,12 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="@string/temperature_value"
-        android:textSize="120sp"
-        android:textStyle="bold"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.174" />
 
     <ImageView
         android:id="@+id/weather_symbol"
@@ -27,7 +26,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="92dp"
         android:contentDescription="@string/weather_symbol"
-        android:theme="@style/Theme.Day"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/clear_day" />
@@ -62,6 +60,7 @@
         android:background="@color/white"
         android:ems="10"
         android:inputType="numberDecimal|numberSigned"
+        android:textColor="@color/my_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -74,6 +73,7 @@
         android:background="@color/white"
         android:ems="10"
         android:inputType="numberDecimal|numberSigned"
+        android:textColor="@color/my_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -102,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginBottom="328dp"
         android:text="@string/sea_press_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -112,28 +112,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="296dp"
         android:text="@string/wind_dir_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/wind_spd_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="276dp"
-        android:text="@string/wind_spd_value"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/sea_press_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="340dp"
-        android:text="@string/sea_press_value"
+        android:layout_marginBottom="328dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -142,8 +131,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="296dp"
         android:text="@string/wind_dir_value"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/wind_spd_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="264dp"
+        android:text="@string/wind_spd_value"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -152,7 +151,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginBottom="264dp"
         android:text="@string/wind_spd_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

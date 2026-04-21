@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Cool Weather App</string>
-    <string name="temperature_value" translatable="false">24º</string>
+    <string name="temperature_value" translatable="false">24.0º</string>
     <string name="weather_symbol" translatable="false">Weather symbol</string>
     <string name="latitude_label">Latitude</string>
     <string name="latitude_value" translatable="false">38.76</string>

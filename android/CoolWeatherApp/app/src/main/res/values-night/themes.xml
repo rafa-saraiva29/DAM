@@ -4,8 +4,8 @@
         <!-- Customize your dark theme here. -->
         <item name="android:windowBackground">@drawable/bg_dark_portrait</item>
 
-        <item name="colorPrimary">@color/my_light_primary</item>
-        <item name="colorSecondary">@color/my_dark_secondary</item>
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorSecondary">@color/my_secondary</item>
 
         <item name="android:textSize">22sp</item>
         <item name="android:textStyle">bold</item>
@@ -13,8 +13,8 @@
     </style>
 
     <style name="Theme.Night" parent="Theme.CoolWeatherApp">
-        <item name="colorPrimary">@color/my_dark_primary</item>
-        <item name="colorSecondary">@color/my_dark_secondary</item>
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorSecondary">@color/my_secondary</item>
     </style>
 
     <style name="Theme.Night.Land" parent="Theme.CoolWeatherApp">
